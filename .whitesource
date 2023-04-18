@@ -1,5 +1,8 @@
 {
   "settingsInheritedFrom": "samq-democorp/whitesource-config@main",
+  "scanSettings": {
+      "enableReachability": true
+  },
   "remediateSettings": {
     "workflowRules": {
       "enabled": true,

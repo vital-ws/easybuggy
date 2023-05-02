@@ -3,11 +3,7 @@
   "scanSettings": {
       "enableReachability": true
   },
-  "remediateSettings": {
-    "workflowRules": {
-      "enabled": true,
-      "minVulnerabilitySeverity": "LOW"
-    },
-    "extends": ["github>whitesource/merge-confidence:beta"]
+  "scanSettingsSAST": {
+    "configExternalURL": "https://raw.githubusercontent.com/samq-democorp/whitesource-config/main/SAST/engines/mendsastcli-config.json"
   }
 }
